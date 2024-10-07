@@ -1,0 +1,58 @@
+
+3 start 
+
+factorial:10
+
+result:0
+
+first_number:1
+
+second_number:1
+
+mul:0
+
+multiplication_counter:0
+
+one:1 
+zero:0 
+
+start:1 mul first_number mul 
+
+1 multiplication_counter one
+multiplication_counter
+
+5 multiplication_counter second_number start 
+
+
+7 mul first_number
+
+7 zero mul
+
+7 zero multiplication_counter
+
+1 one second_number second_number
+
+5 second_number factorial start
+
+4 second_number factorial start
+
+7 first_number result
+
+9
+
+
+
+
+
+
+
+
+ 
+
+
+   
+
+
+
+
+ 
