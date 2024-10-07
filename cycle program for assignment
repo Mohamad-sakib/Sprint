@@ -1,0 +1,82 @@
+3 runer
+
+seq_location:74
+
+seq_length:3 
+
+cycle_location:100
+
+cycle_length:0
+
+
+
+3 start
+
+address_of_first_element:0
+address_of_first_element_copy:0
+
+address_of_last_element:0
+
+putting_address:0
+
+count:0
+
+one:1
+zero:0
+
+
+
+runer:4 seq_length zero halt
+
+4 cycle_length zero halt
+
+
+
+start:7 cycle_location putting_address
+
+7 seq_location address_of_first_element
+
+7 seq_location address_of_first_element_copy
+
+
+1 address_of_first_element seq_length  address_of_last_element
+
+2   address_of_last_element one
+address_of_last_element 
+
+
+run:5 count cycle_length put_cycle
+halt:9
+
+put_cycle:7 address_of_first_element temp
+ 7 putting_address putting_address1
+7 temp:0  putting_address1:0 
+
+1 one putting_address  
+putting_address
+1 one count count
+1 one address_of_first_element address_of_first_element
+
+
+5 address_of_first_element address_of_last_element run
+
+
+4 address_of_first_element address_of_last_element run
+
+
+7 address_of_first_element_copy address_of_first_element
+
+3 run 
+
+
+
+
+
+1
+2
+3
+4
+
+
+
+
