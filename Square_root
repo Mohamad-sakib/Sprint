@@ -1,0 +1,108 @@
+
+3 start 
+
+number:9 root_of_number:0
+
+start:3 run
+
+first_number:2
+
+second_number:2
+
+square:0
+
+multiplication_counter:0
+
+one:1
+zero:0
+
+run:4 number one root_of_one
+
+4 number zero root_of_zero
+
+
+multiplication:1 square first_number square
+
+1 one multiplication_counter multiplication_counter
+
+5 multiplication_counter second_number multiplication 
+
+4 square number proper_square
+
+5 number square improper_square 
+
+1 first_number one first_number
+
+
+1 second_number one second_number
+
+7 zero multiplication_counter 
+
+7 zero square
+
+3 multiplication
+
+improper_square:2 first_number one root_of_number
+
+9
+
+proper_square:7 first_number
+root_of_number
+9
+
+
+root_of_zero:7 zero root_of_number
+
+9
+
+root_of_one:7 one root_of_number
+
+9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+   
+
+
+
+
+ 
