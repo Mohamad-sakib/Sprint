@@ -1,0 +1,62 @@
+ 3 6 
+first_element_location:63 length:7
+result:1
+3 start
+first_element:0
+last_element:0
+one:1
+two:2
+zero:0
+
+
+start:4 zero length it_is_palindrome 
+
+1 first_element_location length
+last_element 
+
+
+2 last_element one last_element 
+
+
+7  first_element_location first_element 
+
+
+7 first_element first_element_content 
+
+7 last_element last_element_content
+
+4 first_element_content:0 last_element_content:0 continue
+
+9
+
+continue:1 first_element_content one first_element_content
+
+2 last_element_content one last_element_content
+
+
+5 first_element_content
+last_element_content continue
+
+4 first_element_content
+last_element_content continue
+
+7 two result 
+
+9
+
+it_is_palindrome:7 two result 
+9
+
+
+1
+2
+3
+9
+3
+2
+1
+
+
+
+
+ 
