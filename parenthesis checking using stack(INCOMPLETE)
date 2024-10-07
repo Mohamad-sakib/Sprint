@@ -1,0 +1,180 @@
+3 parentheses_checking
+valid:0
+top_of_stack:0
+operation:0
+stack_address:250
+size_of_stack:0
+pop_data:0
+push_data:0
+last_stack_address:0
+
+zero:0 
+one:1
+two:2
+three:3
+four:4 
+five:5
+six:6
+ten:10
+twenty:20
+thirty:30
+forty:40
+fifty:50
+
+
+
+list_size:10
+list_address:233
+
+
+first_element_address:0
+
+
+
+start:7 stack_address top_of_stack  
+
+run_stack:6 operation 
+4 operation one push_operation 
+4 operation zero pop_operation
+halt:9
+
+push_operation:1 size_of_stack stack_address last_stack_address
+
+2 last_stack_address one last_stack_address
+
+5 last_stack_address top_of_stack stack_over_flow  
+
+7 first_element first_element_content
+
+7  first_element_content:0 push_data
+
+
+7 top_of_stack in_stack
+
+7 push_data in_stack:0
+
+1 first_element one first_element 
+
+1 one top_of_stack top_of_stack
+
+
+3 comparison
+
+
+pop_operation:2 top_of_stack one top_of_stack
+5 top_of_stack stack_address stack_under_flow
+7 top_of_stack data_to_remove
+
+7 data_to_remove:0 pop_data
+
+7 top_of_stack out_stack
+7 zero out_stack:0
+
+
+3 run_stack
+
+
+
+stack_under_flow:9
+stack_over_flow:9
+
+
+
+
+
+parentheses_checking:7 list_size size_of_stack
+
+
+7  list_address  first_element_address 
+
+
+7 first_element_address first_element
+
+7 stack_address top_of_stack 
+
+comparison:5 first_element:0 six push_operation
+
+7 first_element compare_with_one
+
+4 ten compare_with_one:0 check_for_one
+
+7 compare_with_one compare_with_two
+
+4 twenty compare_with_two:0 check_for_two
+
+
+7 compare_with_two compare_with_three 
+
+
+4 thirty compare_with_three:0 check_for_three
+
+
+7 compare_with_three compare_with_four
+
+4 forty compare_with_four:0 check_for_four
+
+7 compare_with_four compare_with_five
+
+
+4 fifty compare_with_five:0 check_for_five
+
+ 3 adding_all_remain_elements_of_stack
+
+9
+
+
+
+check_for_one:1 first_element one first_element
+
+2 top_of_stack one top_of_stack
+
+7 top_of_stack content_one
+4 content_one:0 one  need_to_check_more
+9
+
+
+check_for_two:2 top_of_stack one top_of_stack
+1 first_element one first_element
+7 top_of_stack content_two
+4 content_two:0 two  comparison
+9
+
+check_for_three:2 top_of_stack one top_of_stack
+1 first_element one first_element
+7 top_of_stack content_three
+4 content_three:0 three  comparison
+9
+
+check_for_four:2 top_of_stack one top_of_stack
+1 first_element one first_element
+7 top_of_stack content_four
+4 content_four:0 four  comparison
+9
+
+check_for_five:2 top_of_stack one top_of_stack
+1 first_element one first_element
+7 top_of_stack content_five
+4 content_five:0 five  comparison
+9
+
+
+
+
+
+need_to_check_more:5 stack_address top_of_stack comparison
+
+4 stack_address top_of_stack comparison
+
+7 one valid
+
+9
+
+
+adding_all_remain_elements_of_stack:9
+
+1 2 3 30 40 50
+
+
+
+
+
