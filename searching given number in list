@@ -1,0 +1,52 @@
+3 7 
+
+first_element:41
+length:4
+target:100
+result:0
+
+
+3 start 
+
+one:1
+zero:0
+
+count:0
+
+start:7 first_element address
+
+
+comparison:4 address:0 target write_result
+
+1 address one address 
+
+1 one count count 
+
+
+5 count length comparison
+
+
+9
+
+write_result:1 one result result 
+
+9
+
+
+2
+8
+9
+10
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
