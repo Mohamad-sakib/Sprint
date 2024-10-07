@@ -1,0 +1,53 @@
+3 start 
+top_of_stack:0
+operation:0
+stack_address:100
+size_of_stack:4
+pop_data:0
+push_data:0
+last_stack_address:0
+
+zero:0 
+one:1
+two:2
+
+start:7 stack_address top_of_stack  
+
+run_stack:6 operation 
+4 operation one push_operation 
+4 operation zero pop_operation
+halt:9
+
+push_operation:1 size_of_stack stack_address last_stack_address
+
+2 last_stack_address one last_stack_address
+
+5 last_stack_address top_of_stack stack_over_flow  
+6 push_data
+
+7 top_of_stack in_stack
+
+7 push_data in_stack:0 
+
+1 one top_of_stack top_of_stack
+
+
+3 run_stack
+
+
+pop_operation:2 top_of_stack one top_of_stack
+5 top_of_stack stack_address stack_under_flow
+7 top_of_stack data_to_remove
+
+7 data_to_remove:0 pop_data
+
+7 top_of_stack out_stack
+7 zero out_stack:0
+
+
+3 run_stack
+
+
+
+stack_under_flow:9
+stack_over_flow:9
