@@ -1,0 +1,61 @@
+3 5 
+number:2117 result:0 
+3 start
+
+first_address:98
+last_address:0
+length:0
+
+
+dividend:0
+divisor:10
+quotient:0
+reminder:0
+
+one:1
+zero:0
+
+start:7 number dividend 
+7 dividend reminder 
+divide_condition:5 divisor reminder divide
+4 divisor reminder divide 
+ 
+
+
+7 first_address put_address
+7 reminder put_address:0
+1 first_address one first_address
+7 quotient reminder 
+1 one length length 
+4 quotient zero sum
+7 zero quotient
+3 divide_condition
+
+
+sum:2 first_address length first_address
+1  first_address length 
+ last_address
+
+2 last_address one last_address
+
+7 first_address first_content 
+
+adding:1 first_content:0 result result 
+
+1 first_content one first_content
+
+5 first_content last_address adding
+
+4 first_content last_address adding
+
+ 9
+
+divide:2 reminder divisor reminder 
+
+1 quotient one quotient
+
+3 divide_condition
+
+
+
+
