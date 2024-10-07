@@ -1,0 +1,55 @@
+3 5 
+first_element_location:100
+n:8
+3 start
+
+first_number:0
+second_number:1
+putting_number:0
+count:2
+
+one:1
+two:2
+zero:0
+
+
+start:4 n one one_element
+
+4 n zero halt
+
+7 first_element_location first_element_address1
+
+7 first_number first_element_address1:0
+
+1 first_element_address1 one second_element_address1
+
+7 second_number second_element_address1:0
+
+
+newValuesFinder:5 count n putting_new_values
+
+9
+
+putting_new_values:1 first_number second_number putting_number 
+
+7 second_number first_number
+
+7 putting_number second_number
+
+1 one second_element_address1  second_element_address1
+
+7 second_element_address1 last_element_address 
+
+
+7 putting_number last_element_address:0
+
+1 count one count
+ 
+3 newValuesFinder 
+
+
+
+one_element:7 first_element_location first_element_address
+
+7 first_number first_element_address:0
+halt:9
