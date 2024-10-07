@@ -1,0 +1,333 @@
+3 start 
+
+
+address_of_element:0
+
+user_program_address:384
+
+sum_address:0
+subtraction_address:0
+copy_address:0
+equal_to_address:0
+result_attribute_of_equal:0
+lesser_then_address:0
+result_attribute_of_lesser_then:0
+
+constant_copy:0
+
+add:1
+
+subtract:2
+
+jump:3 
+
+equal_to:4
+
+less_then:5 
+
+copy:7
+
+stop:9
+
+one:1
+zero:0
+three:3
+four:4
+
+
+
+
+start:7 user_program_address address_of_element
+
+finding_instruction:7 address_of_element  value_of_element
+
+4 value_of_element:0 jump jump_In
+
+7 value_of_element  value_of_element1
+
+4 value_of_element1:0 add add_In
+
+7 value_of_element1  value_of_element2
+
+4 value_of_element2:0 subtract
+sub_In
+
+7 value_of_element2  value_of_element3
+
+
+4 value_of_element3:0 stop 
+stop_In
+
+7 value_of_element3  value_of_element4
+
+4 value_of_element4:0 copy
+copy_In
+
+
+7 value_of_element4  value_of_element5
+
+
+
+4 value_of_element5:0 equal_to
+
+equal_to_In
+
+7 value_of_element5  value_of_element6
+
+
+4 value_of_element6:0 less_then
+less_then_In
+
+7 value_of_element6  value_of_element7
+
+4 value_of_element7:0 constant_copy constant_copy_In
+ 
+9
+
+
+jump_In:1 address_of_element one value_of_jump_attribute
+1 address_of_element value_of_jump_attribute:0
+address_of_element
+
+2 address_of_element one address_of_element
+
+3 finding_instruction
+
+
+
+
+
+
+
+
+
+add_In:7 address_of_element sum_address 
+1 one sum_address sum_address
+7 sum_address temp1 
+1  user_program_address temp1:0 
+first_attribute_of_sum
+2 first_attribute_of_sum one first_attribute_of_sum
+
+1 one sum_address sum_address
+7 sum_address temp2 
+1 user_program_address temp2:0 
+second_attribute_of_sum
+2 second_attribute_of_sum one second_attribute_of_sum
+
+
+1 one sum_address sum_address
+7 sum_address temp3 
+1 user_program_address temp3:0 
+result_attribute_of_sum
+2 result_attribute_of_sum one result_attribute_of_sum
+
+
+1 first_attribute_of_sum:0 second_attribute_of_sum:0 result_attribute_of_sum:0
+
+1 address_of_element four address_of_element
+
+3 finding_instruction
+ 
+
+
+
+
+
+
+
+
+
+
+sub_In:7 address_of_element subtraction_address 
+1 one subtraction_address subtraction_address
+7 subtraction_address temp4 
+1  user_program_address temp4:0 
+first_attribute_of_sub
+2 first_attribute_of_sub one first_attribute_of_sub
+
+1 one subtraction_address subtraction_address
+7 subtraction_address temp5 
+1 user_program_address temp5:0 
+second_attribute_of_sub
+2 second_attribute_of_sub one second_attribute_of_sub
+
+
+1 one subtraction_address subtraction_address
+7 subtraction_address temp6 
+1 user_program_address temp6:0 
+result_attribute_of_sub
+2 result_attribute_of_sub one result_attribute_of_sub
+
+
+2 first_attribute_of_sub:0 second_attribute_of_sub:0 result_attribute_of_sub:0
+
+1 address_of_element four address_of_element
+
+3 finding_instruction
+
+
+
+
+
+
+
+
+
+
+copy_In:7 address_of_element copy_address 
+1 one copy_address copy_address
+7 copy_address temp7 
+1  user_program_address temp7:0 
+first_attribute_of_copy
+2 first_attribute_of_copy one first_attribute_of_copy
+
+
+1 one copy_address copy_address
+7 copy_address temp8 
+1  user_program_address temp8:0 
+second_attribute_of_copy
+2 second_attribute_of_copy one second_attribute_of_copy
+
+7 first_attribute_of_copy:0 
+second_attribute_of_copy:0
+
+
+1 address_of_element three address_of_element
+
+
+3 finding_instruction
+
+
+
+
+
+
+
+
+
+
+equal_to_In:7 address_of_element equal_to_address 
+1 one equal_to_address equal_to_address
+7 equal_to_address temp9 
+1  user_program_address temp9:0 
+first_attribute_of_equal
+2 first_attribute_of_equal one first_attribute_of_equal
+
+1 one equal_to_address equal_to_address
+7 equal_to_address temp10 
+1  user_program_address temp10:0 
+second_attribute_of_equal
+2 second_attribute_of_equal one second_attribute_of_equal
+
+
+
+1 one equal_to_address equal_to_address
+7 equal_to_address temp11 
+1  user_program_address temp11:0 
+result_attribute_of_equal
+2 result_attribute_of_equal one result_attribute_of_equal
+
+
+
+
+5 first_attribute_of_equal:0 second_attribute_of_equal:0
+equal_to_function 
+
+
+1 address_of_element four address_of_element
+
+
+3 finding_instruction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+less_then_In:7 address_of_element lesser_then_address 
+1 one lesser_then_address lesser_then_address
+7 lesser_then_address temp13 
+1  user_program_address temp13:0 
+first_attribute_of_lesser_then
+2 first_attribute_of_lesser_then one first_attribute_of_lesser_then
+
+1 one lesser_then_address lesser_then_address
+7 lesser_then_address temp14 
+1  user_program_address temp14:0 
+second_attribute_of_lesser_then
+2 second_attribute_of_lesser_then one second_attribute_of_lesser_then
+
+
+
+1 one lesser_then_address lesser_then_address
+7 lesser_then_address temp15 
+1  user_program_address temp15:0 
+result_attribute_of_lesser_then
+2 result_attribute_of_lesser_then one result_attribute_of_lesser_then
+
+
+
+
+5 first_attribute_of_lesser_then:0 second_attribute_of_lesser_then:0
+lesser_then_function
+
+
+1 address_of_element four address_of_element
+
+
+3 finding_instruction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+constant_copy_In:9
+
+stop_In:9
+
+
+equal_to_function:7 result_attribute_of_equal address_of_element
+
+3 finding_instruction
+
+
+
+lesser_then_function:7 result_attribute_of_lesser_then address_of_element
+
+
+
+3 finding_instruction
+
+3 4 9 7 3 7 0
+
+ 
+
+
